@@ -1,0 +1,55 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #61dafb;
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 2rem;
+  background-color: #282c34;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #4fa8c5;
+  border-color: #61dafb;
+  transform: scale(1.05);
+}
+
+.card p {
+  margin-top: 1rem;
+  color: #888;
+}
+
+.info {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+code {
+  background-color: #282c34;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #61dafb;
+}
